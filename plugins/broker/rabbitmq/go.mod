@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/google/uuid v1.2.0
-	github.com/streadway/amqp v1.0.0
+	github.com/rabbitmq/amqp091-go v1.2.0
 	go-micro.dev/v4 v4.2.1
 )
 

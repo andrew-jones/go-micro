@@ -9,7 +9,7 @@ import (
 
 	"go-micro.dev/v4/broker"
 	"go-micro.dev/v4/cmd"
-	"github.com/streadway/amqp"
+	amqp "github.com/rabbitmq/amqp091-go"
 )
 
 type rbroker struct {
